@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+.first{
+    box-sizing: border-box;
+    background-image: linear-gradient(rgba(165, 42, 42, 0.61),rgba(165, 42, 42, 0.377),rgba(134, 6, 6, 0.753)),url(image/rohit-reddy-T0XI8VthDiY-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+     height: 100vh;
+}
+
+
+
+header{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 30px;
+}
+
+
+.logo{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+
+nav{
+    display: flex;
+   margin-right: 50px;
+}
+
+
+nav ul{
+    display: flex;
+    gap: 60px;
+}
+
+
+nav ul li{
+   justify-content: space-between;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+a:hover{
+    color: aqua;
+}
+
+/* .fa fa-search{
+    color: white;
+} */
+
+
+.text{
+    text-align: center;
+    margin-top: 400px;
+    /* line-height: 3em; */
+}
+
+
+h3{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+h2{
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+}
+
+
+.qw{
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    letter-spacing: 0.2em;
+}
+
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+    line-height: 3vh;
+}
+
+
+.btn{
+    margin-top: 80px;
+    border: 1px solid white;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 25px;
+}
+
+.btn:hover{
+    color: black;
+    background-color: darkgrey;
+}
+
+.second{
+    /* box-sizing: border-box; */
+    background-image: linear-gradient(rgba(22, 11, 11, 0.384),rgba(43, 29, 29, 0.274),rgba(29, 28, 28, 0.219)),url(image/victor-freitas-KkYWWpurqbE-unsplash.jpg);
+    background-attachment: fixed;
+    background-position: top top top top top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+
+
+
+.block{
+   display: flex;
+   box-sizing: border-box;
+     float: right;
+     padding-right: 80px;
+     gap: 70px;
+}
+
+
+
+.yj h1{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 60px;  
+      font-weight: bolder;  
+      color: white;     
+}
+
+
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+
+.jjk{
+
+   color: white;
+}
+
+
+
+.ct{
+    color: white;
+}
+
+
+.ui{
+    color: white;
+}
+
+
+
+.oi{
+    color: white;
+}
+
+
+.Third{
+    background-image: linear-gradient(rgba(85, 1, 1, 0.801),rgb(48, 1, 1),rgba(51, 2, 2, 0.733)),url(image/daniel-apodaca-WdoQio6HPVA-unsplash.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 45vh;
+}
+
+.mn{
+    text-align: center;
+}
+
+
+
+.lw{
+    color: white;
+    font-size: 60px;
+    font-weight: 900px;
+}
+
+
+
+#ap{
+    line-height: 2em;
+}
+
+
+.pw{
+    padding: 10px 20px;
+    color: white;
+    font-size: 20px;
+    border: 1px solid white;
+    background: none;
+    border-radius: 20px;
+}
+
+.pw:hover{
+    color: black;
+    background-color: white;
+}
+
+
+
+.mx{
+    background-image: linear-gradient(rgba(245, 56, 56, 0.137),rgba(75, 66, 66, 0.377),rgba(70, 15, 15, 0.473)),url(image/nathan-dumlao-NXMZxygMw8o-unsplash.jpg);
+    background-position: top top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 35vh;
+}
+
+
+
+footer{
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+
+.oa{
+    font-size: 30px;
+    color: white;
+    font-style: italic;
+    
+}
