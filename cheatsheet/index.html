@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Neogym</title>
+</head>
+<body>
+    <header>
+        <div class="logo">Neogym</div>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <nav>
+            <ul id="nav-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Why Us</a></li>
+                <li><a href="#">Trainers</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="first">
+        <div class="text">
+            <h3>Fitness</h3>
+            <h2>Training</h2>
+            <h1>Neogym</h1>
+            <p>Transform your body with expert coaching, cutting-edge equipment, and personalized training plans.</p>
+            <button class="btn">Contact Us</button>
+        </div>
+    </section>
+    <section class="block">
+        <div>
+            <i class="fa-solid fa-dumbbell fa-2xl"></i>
+            <h2>Quality Equipment</h2>
+            <p>Top-tier machines and weights for maximum performance.</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-utensils fa-2xl"></i>
+            <h2>Nutrition</h2>
+            <p>Customized meal plans for optimal health and energy.</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-heartbeat fa-2xl"></i>
+            <h2>Healthy Diet Plan</h2>
+            <p>Expert guidance on eating right for your goals.</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-running fa-2xl"></i>
+            <h2>Sport Training</h2>
+            <p>Specialized programs for athletes and fitness enthusiasts.</p>
+        </div>
+    </section>
+    <section class="third">
+        <h1>HEALTHY MIND, HEALTHY BODY</h1>
+        <p>Achieve peak performance with expert coaching and motivation.</p>
+        <button class="btn">Read More</button>
+    </section>
+    <footer>
+        &copy; 2025 by Chucks
+    </footer>
+    <script>
+        function toggleMenu() {
+            document.getElementById("nav-menu").classList.toggle("show");
+        }
+    </script>
+</body>
+</html>
